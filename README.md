@@ -3,7 +3,7 @@
 Ce projet a été réalisé sur le site https://www.airbnb.fr/
 et nous permet de tester différents scénarios tel que:
 
--La connection avec des identifiants valides.
+-La connexion avec des identifiants valides.
 -Une recherche dans le menu d'aide.
 -Une vérification sur le fait que le premier restaurant trouvé contient un prix.
 -Le changement de langue du site.
@@ -25,10 +25,13 @@ de ce JDK de plus de 384 000 ko)
 Sur le dossier contenant le projet, cliquez droit, properties, Java Build Path,
 dans l'onglet libraries selectionnez votre JRE et editez-le grâce au bouton "edit", selectionnez ensuite
 "alternate JRE" et référencez votre JDK.
+Faites à nouveau un click droit sur le projet, properties, Java Compiler et verifiez que
+celui-ci est supérieur à 1.5 .
 
 Etape3:
 Sur le dossier contenant le projet, click droit, run as et effectuez un maven clean et un maven install.
-(Eventuellement un maven update afin que la mise en place du JDK soit prise en compte:
+(Eventuellement un maven update afin que la mise en place du JDK soit prise en compte et que le compilateur 
+ne fournisse pas d'erreur.
 cliquez droit, Maven, updateProject, OK).
 
 Etape4: 
@@ -36,7 +39,7 @@ Afin de lancer les tests il est nécessaire d'ajouter en arguments le driver chr
 Ce driver a été ajouté au projet.
 Afin de lancer un test précis allez dans 
 src/test/java/fr.ab.testing/
-Click droit sur une classe de test, run as, run configurations,
+Cliquez droit sur une classe de test, run as, run configurations,
 nouveau Junit, dans l'onglet "Arguments" (Vm arguments)
 Rajoutez les deux lignes ci-dessous:
 

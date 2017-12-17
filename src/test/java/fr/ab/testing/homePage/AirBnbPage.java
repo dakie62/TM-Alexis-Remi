@@ -44,7 +44,7 @@ public class AirBnbPage extends PageObject {
 
 	//Permet d'envoyer les logins pour verification au serveur
 	public void envoyerLogin() {
-		element($("._1r3muaxb")).click();
+		($("._1r3muaxb")).click();
 	}
 
 	//Augmente la taille du client Chrome
