@@ -1,4 +1,4 @@
-# Projet de Test et Maintenance d'Alexis Ebrard et Remi Coutant
+﻿# Projet de Test et Maintenance d'Alexis Ebrard et Remi Coutant
 
 Ce projet a été réalisé sur le site https://www.airbnb.fr/
 et nous permet de tester différents scénarios tel que:
@@ -30,9 +30,7 @@ celui-ci est supérieur à 1.5 .
 
 Etape3:
 Sur le dossier contenant le projet, click droit, run as et effectuez un maven clean et un maven install.
-(Eventuellement un maven update afin que la mise en place du JDK soit prise en compte et que le compilateur 
-ne fournisse pas d'erreur.
-cliquez droit, Maven, updateProject, OK).
+
 
 Etape4: 
 Afin de lancer les tests il est nécessaire d'ajouter en arguments le driver chrome.
