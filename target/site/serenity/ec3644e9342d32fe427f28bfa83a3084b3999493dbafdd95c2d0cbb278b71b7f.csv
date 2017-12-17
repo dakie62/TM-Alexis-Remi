@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Rechercher des informations sur Airbnb","Trouver le numéro de téléphone d'airbnb","SUCCESS","10:24:24","0.0","19.42"
+"Tester l'outil d'aide","Rechercher les conditions d'annulation","SUCCESS","10:24:11","0.0","12.57"
+"Tester la connexion AirBnb","Connexion valide sur AirBnb","SUCCESS","10:23:35","0.0","21.57"
+"Tester le changement de langue","Changement de langue accidentel","SUCCESS","10:24:43","0.0","29.65"
+"Connaitre le prix de ce qui est propose","Trouver un prix","SUCCESS","10:23:58","0.0","13.0"
